@@ -4,4 +4,6 @@
     <item name="second_button" type="id" />
     <item name="first_button" type="id" />
     <item name="fourth_button" type="id" />
+    <item name="next_button" type="id">Next question</item>
+    <item name="restart_button" type="id">Restart game</item>
 </resources>

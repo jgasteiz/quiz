@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Quiz</string>
+    <string name="app_name">Game of Thrones Quiz</string>
     <string name="action_settings">Settings</string>
     <string name="false_button">False</string>
     <string name="true_button">True</string>
     <string name="correct_toast">Correct!</string>
     <string name="incorrect_toast">Incorrect!</string>
     <string name="next_button">Next</string>
+    <string name="restart_button">Restart</string>
 
     <string-array name="q_0">
         <item>What are the names of the Brothers of the Night\'s Watch in the prologue?</item>
@@ -36,79 +37,117 @@
         <item>3</item>
     </string-array>
 
-    <string-array name="questions">
-        <item>Name of the youngest of Tywinn Lannister\'s Children?</item>
-        <item>Cersei</item>
-        <item>Jaime</item>
-        <item>Tyrion</item>
-        <item>Tyrell</item>
-        <item>3</item>
-        <item>At the book\'s beginning, what is the name of the former Lord Commander of the Kingsguard?</item>
-        <item>Barristan Selmy</item>
-        <item>Oswell Whent</item>
-        <item>Gerold Hightower</item>
-        <item>Arthur Dayne</item>
-        <item>3</item>
-        <item>In the forging of a Maester\'s chain, which metal indicates study in the field of warcraft?</item>
-        <item>Bronze</item>
-        <item>Iron</item>
-        <item>Silver</item>
-        <item>Blackened Iron</item>
-        <item>2</item>
-        <item>What is the blazon on the Tarly coat of arms?</item>
-        <item>A striding huntsman</item>
-        <item>A rearing horse</item>
-        <item>A grape cluster</item>
-        <item>A winged chalice</item>
-        <item>1</item>
-        <item>Which sword is not made of Valyrian Steel?</item>
-        <item>Ice</item>
-        <item>Dawn</item>
-        <item>Longclaw</item>
-        <item>Heartsbane</item>
-        <item>2</item>
-        <item>Who serves as the High Steward of the Vale?</item>
-        <item>Nestor Royce</item>
-        <item>Brynden Tully</item>
-        <item>Lyn Corbray</item>
-        <item>Vardis Egen</item>
-        <item>1</item>
-        <item>At what age is Jon Snow when he asks to join the Night\'s Watch?</item>
-        <item>Fourteen</item>
-        <item>Fifteen</item>
-        <item>Sixteen</item>
-        <item>Seventeen</item>
-        <item>1</item>
-        <item>Which Stark Lord was the last of the Kings in the North?</item>
-        <item>Jon Stark</item>
-        <item>Theon Stark</item>
-        <item>Torrhen Stark</item>
-        <item>Cregan Stark</item>
-        <item>3</item>
-        <item>Game of Thrones is set in the fictional land of Westeros. How many Kingdoms does it have?</item>
-        <item>One</item>
-        <item>Five</item>
-        <item>Seven</item>
-        <item>Thirteen</item>
-        <item>3</item>
-        <item>Thrones Season One focused primarily on the family of "Ned" Stark. What is his real name?</item>
-        <item>Edmond</item>
-        <item>Eddard</item>
-        <item>Edward</item>
-        <item>Egdar</item>
-        <item>2</item>
-        <item>What is the name of the youngest Stark child?</item>
-        <item>Rickon</item>
-        <item>Bran</item>
-        <item>Arya</item>
-        <item>Sansa</item>
-        <item>1</item>
+    <string-array name="q_3">
         <item>Who is Joffrey Lannister\'s real father?</item>
         <item>King Robert</item>
         <item>Jamie Lannister</item>
         <item>Ned Stark</item>
         <item>Petyr Baelish</item>
         <item>2</item>
+    </string-array>
+
+    <string-array name="q_4">
+        <item>What is the name of the youngest Stark child?</item>
+        <item>Rickon</item>
+        <item>Bran</item>
+        <item>Arya</item>
+        <item>Sansa</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="q_5">
+        <item>Thrones Season One focused primarily on the family of "Ned" Stark. What is his real name?</item>
+        <item>Edmond</item>
+        <item>Eddard</item>
+        <item>Edward</item>
+        <item>Egdar</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="q_6">
+        <item>Game of Thrones is set in the fictional land of Westeros. How many Kingdoms does it have?</item>
+        <item>One</item>
+        <item>Five</item>
+        <item>Seven</item>
+        <item>Thirteen</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="q_7">
+        <item>Which Stark Lord was the last of the Kings in the North?</item>
+        <item>Jon Stark</item>
+        <item>Theon Stark</item>
+        <item>Torrhen Stark</item>
+        <item>Cregan Stark</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="q_8">
+        <item>Who serves as the High Steward of the Vale?</item>
+        <item>Nestor Royce</item>
+        <item>Brynden Tully</item>
+        <item>Lyn Corbray</item>
+        <item>Vardis Egen</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="q_9">
+        <item>At what age is Jon Snow when he asks to join the Night\'s Watch?</item>
+        <item>Fourteen</item>
+        <item>Fifteen</item>
+        <item>Sixteen</item>
+        <item>Seventeen</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="q_10">
+        <item>Which sword is not made of Valyrian Steel?</item>
+        <item>Ice</item>
+        <item>Dawn</item>
+        <item>Longclaw</item>
+        <item>Heartsbane</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="q_11">
+        <item>What is the blazon on the Tarly coat of arms?</item>
+        <item>A striding huntsman</item>
+        <item>A rearing horse</item>
+        <item>A grape cluster</item>
+        <item>A winged chalice</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="q_12">
+        <item>In the forging of a Maester\'s chain, which metal indicates study in the field of warcraft?</item>
+        <item>Bronze</item>
+        <item>Iron</item>
+        <item>Silver</item>
+        <item>Blackened Iron</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="q_13">
+        <item>At the book\'s beginning, what is the name of the former Lord Commander of the Kingsguard?</item>
+        <item>Barristan Selmy</item>
+        <item>Oswell Whent</item>
+        <item>Gerold Hightower</item>
+        <item>Arthur Dayne</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="q_14">
+        <item>Name of the youngest of Tywinn Lannister\'s Children?</item>
+        <item>Cersei</item>
+        <item>Jaime</item>
+        <item>Tyrion</item>
+        <item>Tyrell</item>
+        <item>3</item>
+    </string-array>
+
+
+    <string-array name="questions">
+
         <item>In the first episode of the season, a humanoid creature is shown in the snow-covered wilderness. What is this creature known as?</item>
         <item>A Snowghast</item>
         <item>A White Walker</item>
