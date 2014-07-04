@@ -2,15 +2,341 @@
 <resources>
 
     <string name="app_name">Quiz</string>
-    <string name="question_1">Is Robb Stark dead?</string>
-    <string name="question_2">Does Tyrion Lannister kill his father?</string>
-    <string name="question_3">Does Sansa Stark love Joffrey Baratheon?</string>
-    <string name="question_4">Is Arya Stark dead?</string>
     <string name="action_settings">Settings</string>
     <string name="false_button">False</string>
     <string name="true_button">True</string>
     <string name="correct_toast">Correct!</string>
     <string name="incorrect_toast">Incorrect!</string>
     <string name="next_button">Next</string>
+
+    <string-array name="q_0">
+        <item>What are the names of the Brothers of the Night\'s Watch in the prologue?</item>
+        <item>Garett, Wal and Willem Risley</item>
+        <item>Gared, Will and Waymar Royce</item>
+        <item>Gareth, Whin and Walder Ryswell</item>
+        <item>Gerry, Whis and Whynton Redfort</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="q_1">
+        <item>What is the name of Daenery\'s husband?</item>
+        <item>Moro</item>
+        <item>Rhogoro</item>
+        <item>Qotho</item>
+        <item>Drogo</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="q_2">
+        <item>Which is not one of the Seven Gods?</item>
+        <item>The Mother</item>
+        <item>The Crone</item>
+        <item>The Healer</item>
+        <item>The Smith</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="questions">
+        <item>Name of the youngest of Tywinn Lannister\'s Children?</item>
+        <item>Cersei</item>
+        <item>Jaime</item>
+        <item>Tyrion</item>
+        <item>Tyrell</item>
+        <item>3</item>
+        <item>At the book\'s beginning, what is the name of the former Lord Commander of the Kingsguard?</item>
+        <item>Barristan Selmy</item>
+        <item>Oswell Whent</item>
+        <item>Gerold Hightower</item>
+        <item>Arthur Dayne</item>
+        <item>3</item>
+        <item>In the forging of a Maester\'s chain, which metal indicates study in the field of warcraft?</item>
+        <item>Bronze</item>
+        <item>Iron</item>
+        <item>Silver</item>
+        <item>Blackened Iron</item>
+        <item>2</item>
+        <item>What is the blazon on the Tarly coat of arms?</item>
+        <item>A striding huntsman</item>
+        <item>A rearing horse</item>
+        <item>A grape cluster</item>
+        <item>A winged chalice</item>
+        <item>1</item>
+        <item>Which sword is not made of Valyrian Steel?</item>
+        <item>Ice</item>
+        <item>Dawn</item>
+        <item>Longclaw</item>
+        <item>Heartsbane</item>
+        <item>2</item>
+        <item>Who serves as the High Steward of the Vale?</item>
+        <item>Nestor Royce</item>
+        <item>Brynden Tully</item>
+        <item>Lyn Corbray</item>
+        <item>Vardis Egen</item>
+        <item>1</item>
+        <item>At what age is Jon Snow when he asks to join the Night\'s Watch?</item>
+        <item>Fourteen</item>
+        <item>Fifteen</item>
+        <item>Sixteen</item>
+        <item>Seventeen</item>
+        <item>1</item>
+        <item>Which Stark Lord was the last of the Kings in the North?</item>
+        <item>Jon Stark</item>
+        <item>Theon Stark</item>
+        <item>Torrhen Stark</item>
+        <item>Cregan Stark</item>
+        <item>3</item>
+        <item>Game of Thrones is set in the fictional land of Westeros. How many Kingdoms does it have?</item>
+        <item>One</item>
+        <item>Five</item>
+        <item>Seven</item>
+        <item>Thirteen</item>
+        <item>3</item>
+        <item>Thrones Season One focused primarily on the family of "Ned" Stark. What is his real name?</item>
+        <item>Edmond</item>
+        <item>Eddard</item>
+        <item>Edward</item>
+        <item>Egdar</item>
+        <item>2</item>
+        <item>What is the name of the youngest Stark child?</item>
+        <item>Rickon</item>
+        <item>Bran</item>
+        <item>Arya</item>
+        <item>Sansa</item>
+        <item>1</item>
+        <item>Who is Joffrey Lannister\'s real father?</item>
+        <item>King Robert</item>
+        <item>Jamie Lannister</item>
+        <item>Ned Stark</item>
+        <item>Petyr Baelish</item>
+        <item>2</item>
+        <item>In the first episode of the season, a humanoid creature is shown in the snow-covered wilderness. What is this creature known as?</item>
+        <item>A Snowghast</item>
+        <item>A White Walker</item>
+        <item>A Winterwolf</item>
+        <item>A Whiteshade</item>
+        <item>2</item>
+        <item>Bran Stark was thrown from a window by whom or what?</item>
+        <item>A direwolf</item>
+        <item>Joffrey Lannister</item>
+        <item>Jon Snow</item>
+        <item>Jamie Lannister</item>
+        <item>4</item>
+        <item>Daenarys Targaryen is referred to as "Khaleesi" by the Dothraki. What, literally, does that word mean?</item>
+        <item>Slave</item>
+        <item>Queen</item>
+        <item>Golden-Haired</item>
+        <item>Wife of the Khal</item>
+        <item>4</item>
+        <item>Which of the following characters is NOT dead as we enter Season 2?</item>
+        <item>Khal Drogo</item>
+        <item>Robb Stark</item>
+        <item>Robert Baratheon</item>
+        <item>Viserys Targaryen</item>
+        <item>2</item>
+        <item>Which of the following characters died from molten gold?</item>
+        <item>Viserys Targaryen</item>
+        <item>Ned Stark</item>
+        <item>Khal Drogo</item>
+        <item>Jorah Mormont</item>
+        <item>1</item>
+        <item>How many baby dragons hatch from Daenerys\'s eggs?</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>3</item>
+        <item>What is the first name of Ned Stark\'s late sister, who was married to King Robert before being kidnapped by Rhaegar Targaryen?</item>
+        <item>Cersei</item>
+        <item>Catelyn</item>
+        <item>Arya</item>
+        <item>Lyanna</item>
+        <item>4</item>
+        <item>What is last name of Ned\'s Bastard son?</item>
+        <item>Snow</item>
+        <item>Tyrell</item>
+        <item>Tarly</item>
+        <item>Willis</item>
+        <item>1</item>
+        <item>What is the name of the actor that plays Ned Stark?</item>
+        <item>Sean Bean</item>
+        <item>Mason Crosby</item>
+        <item>Patrick Ton</item>
+        <item>James Harrington</item>
+        <item>1</item>
+        <item>Nick-name for Tyrion Lannister?</item>
+        <item>Bean Sprout</item>
+        <item>The whore Imp</item>
+        <item>Short-stuff</item>
+        <item>Halfman</item>
+        <item>4</item>
+        <item>What is the name of the group of people who travel with the Mother of Dragons in season 1?</item>
+        <item>Guild</item>
+        <item>khalasar</item>
+        <item>Queensgaurd</item>
+        <item>White Walkers</item>
+        <item>2</item>
+        <item>Name of the second book?</item>
+        <item>Storm of Swords</item>
+        <item>Hour of time</item>
+        <item>Dance of Dragons</item>
+        <item>Clash of Kings</item>
+        <item>4</item>
+        <item>\"If I look back, I am lost\"</item>
+        <item>Daenerys</item>
+        <item>Eddard</item>
+        <item>Tyrion</item>
+        <item>Jaime</item>
+        <item>1</item>
+        <item>\"A dragon is no slave\"</item>
+        <item>Daenerys</item>
+        <item>Eddard</item>
+        <item>Tyrion</item>
+        <item>Drogo</item>
+        <item>1</item>
+        <item>Who is the actress that plays Daenerys?</item>
+        <item>Jamine Stacey</item>
+        <item>Jessica Alba</item>
+        <item>Emilia Clarke</item>
+        <item>Jessica Lawerence</item>
+        <item>3</item>
+        <item>Who is the actor that plays Tyrion?</item>
+        <item>Jamine Stacey</item>
+        <item>Peter Dinklage</item>
+        <item>Emilia Clarke</item>
+        <item>Jessica Lawerence</item>
+        <item>2</item>
+        <item>What is the name of Tyrion\'s lover?</item>
+        <item>Destinee</item>
+        <item>Cersei</item>
+        <item>Tyrie</item>
+        <item>Shea</item>
+        <item>4</item>
+        <item>\"The gall of them, fighting back!\"</item>
+        <item>Daenerys</item>
+        <item>Eddard</item>
+        <item>Tyrion</item>
+        <item>Drogo</item>
+        <item>3</item>
+        <item>\"Those are brave men. Let\'s go kill them!\"</item>
+        <item>Daenerys</item>
+        <item>Eddard</item>
+        <item>Tyrion</item>
+        <item>Drogo</item>
+        <item>3</item>
+        <item>\"Crowns do queer things to the heads beneath them.\"</item>
+        <item>Daenerys</item>
+        <item>Eddard</item>
+        <item>Tyrion</item>
+        <item>Drogo</item>
+        <item>3</item>
+        <item>\"A ruler who hides behind paid executioners soon forgets what death is.\"</item>
+        <item>Daenerys</item>
+        <item>Eddard</item>
+        <item>Tyrion</item>
+        <item>Drogo</item>
+        <item>2</item>
+        <item>\"Know the men who follow you and let them know you. Don\'t ask your men to die for a stranger.\"</item>
+        <item>Daenerys</item>
+        <item>Eddard</item>
+        <item>Tyrion</item>
+        <item>Drogo</item>
+        <item>2</item>
+        <item>\"If you would take a man’s life, you owe it to him to look into his eyes and hear his final words. And if you cannot bear to do that, then perhaps the man does not deserve to die.\"</item>
+        <item>Daenerys</item>
+        <item>Eddard</item>
+        <item>Tyrion</item>
+        <item>Drogo</item>
+        <item>2</item>
+        <item>Eddard Stark is the Warden of the ....</item>
+        <item>North</item>
+        <item>East</item>
+        <item>South</item>
+        <item>West</item>
+        <item>1</item>
+        <item>How many men went with Ned to rescue Lyanna?</item>
+        <item>10</item>
+        <item>3</item>
+        <item>6</item>
+        <item>7</item>
+        <item>4</item>
+        <item>Ned Stark is lord of ....</item>
+        <item>The Vale</item>
+        <item>Winterfell</item>
+        <item>The Wall</item>
+        <item>Astapor</item>
+        <item>2</item>
+        <item>How many known bastard children has Tyrion fathered?</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>\"Is it so far from madness to wisdom?\"</item>
+        <item>Daenerys</item>
+        <item>Eddard</item>
+        <item>Tyrion</item>
+        <item>Drogo</item>
+        <item>1</item>
+        <item>Which house does Tyrion\'s squire come from?</item>
+        <item>Frey</item>
+        <item>KarStark</item>
+        <item>Lannister</item>
+        <item>Payne</item>
+        <item>4</item>
+        <item>Where did Eddard Stark and Robert Baratheon become close?</item>
+        <item>The vale</item>
+        <item>Winterfell</item>
+        <item>Storm\'s End</item>
+        <item>The Red Keep</item>
+        <item>1</item>
+        <item>In which episode is Ned beheaded?</item>
+        <item>110</item>
+        <item>107</item>
+        <item>108</item>
+        <item>109</item>
+        <item>4</item>
+        <item>What did Eddard promise Lyanna?</item>
+        <item>Avenge Rhaegar</item>
+        <item>Win the throne</item>
+        <item>Currently Unknown</item>
+        <item>Marry Catelyn</item>
+        <item>3</item>
+        <item>What is the name of Eddard\'s Valyrian Steel blade?</item>
+        <item>Weeper</item>
+        <item>Ice</item>
+        <item>Judegment</item>
+        <item>Direblade</item>
+        <item>2</item>
+        <item>Who saves Tyrion\'s life in the battle at the blackgate?</item>
+        <item>Bronn</item>
+        <item>The hound</item>
+        <item>Cersei</item>
+        <item>Podrick</item>
+        <item>4</item>
+        <item>What possession is taken from Daenerys in Qarth?</item>
+        <item>Daario</item>
+        <item>Dragons</item>
+        <item>Sword</item>
+        <item>Combat ships</item>
+        <item>2</item>
+        <item>What is the name of Daenery\'s protecter?</item>
+        <item>Jorah</item>
+        <item>Sam</item>
+        <item>Tarly</item>
+        <item>Rand Al\'Thor</item>
+        <item>1</item>
+        <item>What is the ultimate cause of fricition between Ned and Robert after the rebellion?</item>
+        <item>Killing of the Targaryean Children</item>
+        <item>Robert\'s sacking of the city</item>
+        <item>Jaime\'s slaying of the king that he vowed to protect</item>
+        <item>Robert\'s womanizing ways</item>
+        <item>1</item>
+        <item>Why was Daenerys and Viserys sent away from Westeros?</item>
+        <item>To marry Drogo</item>
+        <item>To obtain the three dragons eggs</item>
+        <item>To destroy Qarth</item>
+        <item>She was one of the heirs to the Mad King</item>
+        <item>4</item>
+    </string-array>
 
 </resources>
